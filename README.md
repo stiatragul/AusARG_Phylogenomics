@@ -17,6 +17,8 @@ This repo holds the scripts and software to go from raw sequence reads provided 
 
 # Where's the Beef?
 
-The moving pieces of this workflow are a series of bioinformatics and phylogenetics software pack- ages that have been containerized using [Singularity](https://sylabs.io/) (similar to *Docker*). This means the packages are free standing (including dependencies), so as long as you have *Singularity v.3+* installed on your machine you can run them without any prior installation.
+The moving pieces of this workflow are a series of bioinformatics and phylogenetics software packages that have been containerized using [Singularity](https://sylabs.io/) (similar to *Docker*). This means the packages are free standing (including dependencies), so as long as you have *Singularity v.3+* installed on your machine you can run them without any prior installation.
 
 While the initial steps of this workflow take place on your local machine (desktop, laptop, whatever), you'll want to execute most of the heavy lifting on a more powerful machine or server. That **analysis** machine will also need to have [Python](https://www.python.org/downloads/) installed (including *pandas* and *numpy*), and to take advantage of parallel processing you'll want [GNU Parallel](https://www.gnu.org/software/parallel/) installed as well.
+
+Good luck!
